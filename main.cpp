@@ -1,13 +1,13 @@
 #include "stack_linked_list.hpp"
 
 void testCharStack();
-void testInstStack();
+void testIntStack();
 
 int main()
 {
     try
     {
-        testInstStack();
+        testIntStack();
     }
     catch (const std::exception &e)
     {
@@ -29,7 +29,7 @@ void testCharStack()
     std::cout << "items on stack: " << charStack1.countItemsOnStack() << "\n";
 }
 
-void testInstStack()
+void testIntStack()
 {
     stack::Stack<int> iStack1;
 
