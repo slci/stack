@@ -19,7 +19,7 @@ namespace stack
     template <typename T>
     struct StackFrame
     {
-        StackFrame<T> *next;
+        StackFrame<T> *next{nullptr};
         T value;
     };
 
